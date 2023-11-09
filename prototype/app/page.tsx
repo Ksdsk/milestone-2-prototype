@@ -10,9 +10,9 @@ export default function Home() {
         <div>
           <p className='text-white'>Photo App Mockup</p>
         </div>
-        <div>
+        <Link href="/messages">
           <AiFillMessage color={"#FFFFFF"} size={"30px"}/>
-        </div>
+        </Link>
       </div>
       {/* CONTENT */}
       <div className='h-full pt-5 px-5 gap-5 flex flex-col'>
@@ -24,7 +24,7 @@ export default function Home() {
       {/* FOOTER */}
       <div className='bg-slate-900 flex justify-around p-3'>
         <div>
-          <Link href="/photos_after_plus_clicked">
+          <Link href="/take_photo">
             <BsPlusCircleFill color={"#FFFFFF"} size={"50px"}/>
           </Link>
         </div>

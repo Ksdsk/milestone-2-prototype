@@ -11,7 +11,7 @@ export default function Home() {
         <div>
           <p className='text-white'>Messages</p>
         </div>
-        <Link href="/messages">
+        <Link href="/">
             <p className='text-white'>Back</p>
         </Link>
       </div>

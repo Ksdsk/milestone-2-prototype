@@ -3,6 +3,7 @@ import { LuType } from 'react-icons/lu'
 import { PiStickerFill } from 'react-icons/pi'
 import { MdOutlineGif } from 'react-icons/md'
 import { BsPlusCircleFill } from 'react-icons/bs'
+import { BiSolidMagicWand } from 'react-icons/bi'
 import { FaCircle } from 'react-icons/fa'
 
 import Link from 'next/link'
@@ -24,7 +25,7 @@ export default function Home() {
                 <LuType size="25px" color="#FFFFFF"/>
                 <PiStickerFill size="25px" color="#FFFFFF"/>
                 <MdOutlineGif size="25px" color="#FFFFFF"/>
-                <FaCircle size="25px" color="#FFFFFF"/>
+                <BiSolidMagicWand size="25px" color="#FFFFFF"/>
                 <FaCircle size="25px" color="#FFFFFF"/>
                 <FaCircle size="25px" color="#FFFFFF"/>
             </div>

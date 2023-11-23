@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { AiFillMessage } from 'react-icons/ai'
 import { BsPlusCircleFill } from 'react-icons/bs'
+import { BiSolidUniversalAccess } from 'react-icons/bi'
 import Link from 'next/link'
 export default function Home() {
   return (
@@ -10,9 +11,13 @@ export default function Home() {
         <div>
           <p className='text-white'>Photo App Mockup</p>
         </div>
-        <Link href="/messages">
-          <AiFillMessage color={"#FFFFFF"} size={"30px"}/>
-        </Link>
+        <div className='flex gap-3'>
+          <BiSolidUniversalAccess color={"#FFFFFF"} size={"30px"}/>
+          <Link href="/messages">
+            <AiFillMessage color={"#FFFFFF"} size={"30px"}/>
+          </Link>
+        </div>
+
       </div>
       {/* CONTENT */}
       <div className='h-full pt-5 px-5 gap-5 flex flex-col'>
